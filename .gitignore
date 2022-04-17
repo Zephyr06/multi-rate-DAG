@@ -1,2 +1,11 @@
-bld
-src/.vscode*
+*/__pycache__
+*/.idea
+.idea/
+tests/__pycache__
+/build
+/release
+TaskData/periodic-set-*
+TaskData/*/periodic-set-*
+TaskData/*/dag-Melani-set-*Jobs*
+TaskData/*/periodic*
+.vscode

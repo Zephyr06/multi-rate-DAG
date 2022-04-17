@@ -6,6 +6,7 @@ set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -static-libstdc++ -std=c++14 -fPIC -Wall
 set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -fPIC -Wall")
 
 include_directories(${CMAKE_SOURCE_DIR})
+include_directories(/home/zephyr/Library/)
 
 set(VARIABLE_SRCS	VariableTaskSet/VariableTaskSet.cpp
 					VariableTaskSet/VariableMultiEdge.cpp
